@@ -144,7 +144,7 @@ Regras:
 <p>Retorna a profundidade do mercado para um par de ativos (market), representando as ordens de compra e venda abertas, organizadas por faixa de preço. Essa informação é essencial para exibir o livro de ofertas agregado (depth chart) e analisar a liquidez disponível em cada lado.</p>
 
 **Input**: marketId, precision<br/>
-**Output**: buys, sells
+**Output**: buys (quantity, price), sells (quantity, price)
 
 Regras:
 
